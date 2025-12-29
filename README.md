@@ -4,7 +4,7 @@
 
 The powerful reasoning and generalization capabilities of large language models (LLMs) are crucial for next-generation intelligent transportation systems to achieve accurate traffic flow prediction. However, existing schemes that integrate LLMs with spatiotemporal traf6fic forecasting face challenges such as spatiotemporal coupling characteristics, unified representation of multi-source heterogeneous data, and the need for cross-scenario generalization. To address these challenges, this paper proposes a lightweight scene-adaptive prediction framework based on a spatiotemporal large language foundation model. Firstly, a spatiotemporal large language foundation model for transportation is constructed through structured spatiotemporal prompt engineering and full-parameter fine-tuning, achieving domain adaptation of the general-purpose LLM. Secondly, a lightweight scene-adaptive prediction framework is designed. This framework innovatively proposes a tree structure-based spatial embedding layer to capture the hierarchical spatial dependencies of traffic networks, combines it with a temporal embedding layer to learn cyclical patterns, and employs parameter-efficient fine-tuning methods such as dynamically rank-allocated Low-Rank Adaptation and bottleneck Adapters to achieve rapid adaptation to different scenarios under limited computational resources. Experiments on multiple real-world traffic datasets demonstrate that the proposed framework outperforms existing models in terms of prediction accuracy, long- and short-term prediction generalization capability, and robustness to data missingness and noise.
 
-![](<新建 Markdown_md_files/52fab130-e490-11f0-9213-493c671b21ae.jpeg?v=1\&type=image>)
+![image](https://github.com/williamZQ/LightTrafficLLM/blob/main/demo_png_0.gif)
 
 ### Create ENV
 
@@ -36,7 +36,8 @@ You can customize the training parameter configuration by changing the parameter
 
 ### Model Experimental Index Results
 
-![](<新建 Markdown_md_files/428c90d0-e48f-11f0-9213-493c671b21ae.jpeg?v=1\&type=image>)![](<新建 Markdown_md_files/428c42b0-e48f-11f0-9213-493c671b21ae.jpeg?v=1\&type=image>)
+![](https://github.com/williamZQ/LightTrafficLLM/blob/main/demo_png_1.gif)
+![](https://github.com/williamZQ/LightTrafficLLM/blob/main/demo_png_2.gif)
 
 
 
