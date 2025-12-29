@@ -20,7 +20,7 @@ We have prepared the data, which is ready to run the code, and uploaded it to [H
 
 ### Download Foundation Model LLM
 
-For the one-stage foundation model, you can train it yourself using the one-stage model we uploaded. However, we recommend using the pre-trained foundation model we already have, named LightTrafficLLM-FM. LightTrafficLLM-FM is based on the Llama-3.2 series 3B model, and has been fine-tuned with all parameters using 960,000 traffic flow spatiotemporal data points. Download link: [Huggingface.](https://huggingface.co/ubinet/LightTrafficLLM-FM "LightTrafficLLM-FM")
+For the one-stage foundation model, you can train it yourself using the one-stage model we uploaded. However, we recommend using the pre-trained foundation model we already have, named LightTrafficLLM-FM. LightTrafficLLM-FM is based on the Llama-3.2 series 3B model, and has been fine-tuned with all parameters using 2,235,052 traffic flow spatiotemporal data points. Download link: [Huggingface.](https://huggingface.co/ubinet/LightTrafficLLM-FM "LightTrafficLLM-FM")
 
 ### Execute Train and Evaluation
 
